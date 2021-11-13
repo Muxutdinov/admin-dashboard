@@ -21,7 +21,7 @@ const Topbor = () => {
           <div className="topbarIconContainer">
             <Settings />
           </div>
-          <img src={myfoto} alt="" className="topAvatar" />
+          <img src={myfoto} alt="" className="topAdmin" />
         </div>
       </div>
     </div>
