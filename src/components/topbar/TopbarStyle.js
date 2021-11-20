@@ -1,40 +1,43 @@
-.topbar {
+import styled from "styled-components";
+
+export const Topbar = styled.div`
   width: 100%;
   height: 50px;
   background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 999;
-}
-.topbarWrapper {
+`;
+export const TopbarWrapper = styled.div`
   height: 100%;
   padding: 0px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.logo {
+`;
+export const Logo = styled.div`
   font-weight: bold;
   font-size: 30px;
   color: darkblue;
   cursor: pointer;
-}
-.topRight {
+`;
+export const TopLeft = styled.div``;
+export const TopRight = styled.div`
   display: flex;
   align-items: center;
-}
-.topbarIconContainer {
+`;
+export const TopbarIconContainer = styled.div`
   position: relative;
   cursor: pointer;
   margin-right: 10px;
   color: #555;
-}
-.topAdmin {
+`;
+export const TopAdmin = styled.img`
   height: 35px;
   width: 35px;
   border-radius: 50%;
-}
-.topIconBadge {
+`;
+export const TopIconBadge = styled.span`
   position: absolute;
   top: -5px;
   right: 5px;
@@ -47,4 +50,4 @@
   align-items: center;
   justify-content: center;
   font-size: 10px;
-}
+`;

@@ -1,15 +1,16 @@
 import React from "react";
 import "./App.css";
 import Sidbar from "./components/Sidebar/Sidbar";
-import Topbor from "./components/topbor/Topbor";
+import  Topbar  from "./components/topbar/Topbar";
+import Home from "./pages/Home/Home";
 
 const App = () => {
   return (
     <div>
-      <Topbor />
+      <Topbar />
       <div className="Container">
         <Sidbar />
-        <div className="others">others</div>
+        <Home />
       </div>
     </div>
   );
