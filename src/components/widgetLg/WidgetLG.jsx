@@ -3,8 +3,8 @@ import './WidgetLG.css'
 
 const WidgetLG = () => {
     return (
-        <div>
-            
+        <div className="WidgetLG">
+            Large
         </div>
     )
 }
