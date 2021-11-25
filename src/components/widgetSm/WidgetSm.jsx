@@ -1,7 +1,7 @@
 import React from "react";
 import "./WidgetSm.css";
 import { Visibility } from "@material-ui/icons";
-import myfoto from '../../assets/imgs/admin.png'
+import myfoto from "../../assets/imgs/admin.png";
 
 const WidgetSm = () => {
   return (
@@ -15,7 +15,7 @@ const WidgetSm = () => {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility  className="WidgetSmIcon"/>
+            <Visibility className="WidgetSmIcon" />
             display
           </button>
         </li>
@@ -26,7 +26,7 @@ const WidgetSm = () => {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="WidgetSmIcon" />
             display
           </button>
         </li>
@@ -37,7 +37,7 @@ const WidgetSm = () => {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="WidgetSmIcon" />
             display
           </button>
         </li>
@@ -48,7 +48,7 @@ const WidgetSm = () => {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="WidgetSmIcon" />
             display
           </button>
         </li>
@@ -59,7 +59,7 @@ const WidgetSm = () => {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="WidgetSmIcon" />
             display
           </button>
         </li>
@@ -70,7 +70,7 @@ const WidgetSm = () => {
             <span className="widgetSmUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="WidgetSmIcon" />
             display
           </button>
         </li>
