@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
+import { Link } from "react-router-dom";
 import {
   LineStyle,
   Timeline,
@@ -15,17 +16,19 @@ import {
   Report,
 } from "@material-ui/icons";
 
-const Sidbar = () => {
+const Sidebar = () => {
   return (
     <div className="Sidebar">
       <div className="SidebarWrapper">
         <div className="SidebarMenu">
           <h3 className="SidebarTitle">Dashboard</h3>
           <ul className="SidebarList">
-            <li className="SidebarListItem active">
-              <LineStyle className="SidebarIcon" />
-              Home
-            </li>
+            <Link to="/">
+              <li className="SidebarListItem active">
+                <LineStyle className="SidebarIcon" />
+                Home
+              </li>
+            </Link>
             <li className="SidebarListItem">
               <Timeline className="SidebarIcon" />
               Analytics
@@ -39,10 +42,12 @@ const Sidbar = () => {
         <div className="SidebarMenu">
           <h3 className="SidebarTitle">Quick Menu</h3>
           <ul className="SidebarList">
-            <li className="SidebarListItem">
-              <PersonOutlineSharp className="SidebarIcon" />
-              Users
-            </li>
+            <Link to="/users">
+              <li className="SidebarListItem">
+                <PersonOutlineSharp className="SidebarIcon" />
+                Users
+              </li>
+            </Link>
             <li className="SidebarListItem">
               <CreditCard className="SidebarIcon" />
               Products
@@ -92,4 +97,4 @@ const Sidbar = () => {
   );
 };
 
-export default Sidbar;
+export default Sidebar;
