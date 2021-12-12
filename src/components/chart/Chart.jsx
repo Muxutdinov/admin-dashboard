@@ -24,7 +24,7 @@ const Chart = ({ title, data, dataKey, grid }) => {
         </LineChart>
       </ResponsiveContainer>
     </div>
-  );
+  ); 
 };
 
 export default Chart;
